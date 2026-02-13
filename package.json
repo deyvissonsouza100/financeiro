@@ -1,0 +1,11 @@
+{
+  "name": "fin-dashboard-sync",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "sync:google": "node scripts/sync_google_sheets_to_datajson.mjs"
+  }
+}
